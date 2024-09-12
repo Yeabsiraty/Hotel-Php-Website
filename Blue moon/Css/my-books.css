@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --text: black;
+  --orans: linear-gradient(
+    90.1deg,
+    rgb(43, 163, 179) 0.2%,
+    rgb(49, 21, 133) 99.9%
+  );
+}
+.dark-theme {
+  --text: white;
+  --orans: linear-gradient(
+    90.1deg,
+    rgb(0, 90, 102) 0.2%,
+    rgb(39, 20, 97) 99.9%
+  );
+}
+form {
+  color: var(--text);
+  padding-top: 20px;
+  height: 270px;
+  margin-top: 140px;
+  text-align: center;
+  background-image: var(--orans);
+}
+.text-find {
+  position: relative;
+  top: 120px;
+  font-size: 60px;
+  padding-left: 20px;
+  color: var(--text);
+  background-image: var(--orans);
+  width: 98.5%;
+}
+
+form h2 {
+  font-size: 30px;
+  background-image: var(--orans);
+}
+.inp-email {
+  box-shadow: none;
+  font-size: 17px;
+  margin-top: 30px;
+  border-radius: 0;
+  background-color: white;
+  width: 41%;
+  padding-left: 10px;
+  height: 40px;
+}
+form .btns {
+  background-color: white;
+  padding-top: 5px;
+  border: none;
+  width: 11%;
+  height: 25px;
+  margin: 30px 0 0 10%;
+  font-size: 17px;
+  font-weight: bold;
+}
+form .btns:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+form .email-txt {
+  font-size: 17px;
+  margin-top: 30px;
+  font-weight: bold;
+  background-image: var(--orans);
+}
+.with {
+  font-size: 30px;
+}
+.my-book {
+  display: none;
+}

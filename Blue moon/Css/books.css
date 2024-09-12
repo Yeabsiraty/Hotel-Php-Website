@@ -1,0 +1,304 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --orasn: linear-gradient(
+    90.1deg,
+    rgba(84, 212, 228, 1) 0.2%,
+    rgba(68, 36, 164, 1) 99.9%
+  );
+  --orasns: linear-gradient(
+    90.1deg,
+    rgb(4, 101, 114) 0.2%,
+    rgb(48, 17, 141) 99.9%
+  );
+  --text: black;
+}
+.dark-theme {
+  --text: white;
+}
+.top-image .img {
+  width: 100%;
+  height: 350px;
+}
+.img-top h3 {
+  background-image: var(--orasn);
+}
+.select h1,
+h3 {
+  background-color: transparent;
+}
+.about {
+  background-color: transparent;
+}
+.bed {
+  background-color: transparent;
+}
+.img-top {
+  width: 20%;
+  margin-top: -150px;
+  position: relative;
+  font-size: 13px;
+  margin-left: 30px;
+  background-image: var(--orasn);
+  padding: 15px;
+}
+.img-top h3 {
+  width: 90%;
+}
+.check-if {
+  background-image: var(--orasn);
+  margin: 30px 0 0 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.fa-solid {
+  background-color: transparent;
+}
+.adultsc {
+  padding-left: 40px;
+  width: 25%;
+  background-color: transparent;
+}
+
+.check-if select {
+  margin-left: -10px;
+}
+.check-if input {
+  width: 60%;
+  background-color: white;
+  color: black;
+  height: 30px;
+  box-shadow: none;
+}
+.check-if select {
+  background-color: white;
+  color: black;
+  width: 50%;
+  height: 30px;
+  box-shadow: none;
+}
+.btnch button {
+  width: 70%;
+  height: 30px;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: bold;
+  border-radius: 50px;
+}
+.btnch button:hover {
+  color: white;
+  background-color: aqua;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.error {
+  margin-top: 10px;
+  margin-left: -10px;
+  background-color: transparent;
+  color: red;
+}
+.btnch {
+  height: 20px;
+  width: 7%;
+  background-color: transparent;
+  width: 15%;
+  margin-top: 50px;
+  color: green;
+}
+.formcheck {
+  width: 100%;
+}
+.childrensc,
+.checkin,
+.checkout {
+  width: 25%;
+  background-color: transparent;
+}
+
+h6 {
+  margin-top: 5px;
+  font-size: 20px;
+  width: 120px;
+  background-color: transparent;
+}
+
+.below {
+  background-image: var(--orasns);
+  width: 80.5%;
+  position: relative;
+  margin-top: 220px;
+  margin-left: 10%;
+  padding-left: 10px;
+}
+.ggg {
+  display: flex;
+  background-color: transparent;
+}
+.total {
+  background-color: transparent;
+}
+.rtr {
+  margin-left: 10%;
+}
+.select {
+  background-image: var(--orasns);
+  margin: -200px 0 0 50px;
+  padding-top: 20px;
+  width: 88%;
+  font-size: 30px;
+  color: white;
+}
+
+.filter {
+  margin: 20px 0 0 20px;
+  width: 90%;
+  color: white;
+  background-image: var(--orasn);
+  height: 30px;
+}
+.filter :hover {
+  cursor: pointer;
+}
+.filter h3 {
+  padding: 5px 0 0 10px;
+}
+.search {
+  width: 100%;
+  margin: -30px 0 0 -90px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #9c8155;
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 1px 0 white;
+}
+.search:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.ifilter {
+  background-color: transparent;
+  display: none;
+}
+.filter-select {
+  margin: 20px 0 0 150px;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  background-image: var(--orasn);
+  padding: 20px 0 0 40px;
+}
+.filter-select input {
+  background-color: transparent;
+  box-shadow: none;
+  width: 20px;
+  position: relative;
+  top: 15px;
+}
+.filter-select .room ul li {
+  margin-top: -30px;
+}
+.room ul li,
+.price ul li {
+  list-style: none;
+  margin-top: 10px;
+  background-color: transparent;
+}
+.price h3 {
+  font-size: 20px;
+}
+.price ul li {
+  font-size: 16px;
+  position: relative;
+  left: -125px;
+}
+.filter-select hr {
+  margin: -10px 0 0 -120px;
+  width: 170px;
+}
+.price ul li input {
+  position: relative;
+  left: 95px;
+  top: 5px;
+  background-color: white;
+}
+.price h3 {
+  margin-top: -15px;
+  margin-left: -100px;
+}
+
+.room,
+.room ul,
+.price,
+.price ul {
+  background-color: transparent;
+}
+
+.your-stay {
+  position: relative;
+  margin-left: 66%;
+  top: 15px;
+  width: 32%;
+  background-image: var(--orasn);
+}
+.stay {
+  text-align: center;
+  font-size: 30px;
+}
+#check {
+  margin: 20px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+.one h4,
+.one {
+  background-color: transparent;
+}
+.ones {
+  margin-top: 20px;
+}
+.one {
+  display: flex;
+}
+.one h4 {
+  margin-left: 25%;
+  color: red;
+}
+.adult {
+  background-color: transparent;
+}
+.adult .add {
+  background-color: transparent;
+  margin-top: 20px;
+}
+.adui {
+  margin-left: 37%;
+  background-color: transparent;
+  color: red;
+}
+.ree {
+  background-color: transparent;
+  display: flex;
+}
+#chec {
+  margin-left: 180px;
+}
+.adult {
+  margin: 60px 0 0 10px;
+}
+.total {
+  margin: 110px 0 0 10px;
+  font-size: 30px;
+}
+.filter button {
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+  color: white;
+  font-style: italic;
+}

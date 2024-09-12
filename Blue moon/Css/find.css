@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --vv: linear-gradient(
+    90.1deg,
+    rgba(84, 212, 228, 1) 0.2%,
+    rgba(68, 36, 164, 1) 99.9%
+  );
+  --tex: black;
+}
+.dark-theme {
+  --tex: white;
+  --vv: linear-gradient(
+    90.1deg,
+    rgb(165, 172, 173) 0.2%,
+    rgb(39, 20, 97) 99.9%
+  );
+}
+.content {
+  color: --t;
+  position: relative;
+  top: 120px;
+  width: 94%;
+  margin-left: 10px;
+  background-image: var(--vv);
+  padding-left: 60px;
+}
+.customer {
+  background-color: transparent;
+}
+hr {
+  margin-left: -20px;
+  width: 92%;
+}
+h1 {
+  font-size: 60px;
+
+  background-color: transparent;
+}
+h2 {
+  margin-top: 50px;
+  background-color: transparent;
+}
+.book {
+  margin-top: 50px;
+  background-color: transparent;
+}
+span {
+  text-decoration: underline;
+  margin-left: 120px;
+  background-color: transparent;
+  color: red;
+}

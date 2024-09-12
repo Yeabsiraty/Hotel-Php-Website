@@ -1,0 +1,710 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+}
+:root {
+  --blues: white;
+  --orans: linear-gradient(
+    90.1deg,
+    rgb(43, 163, 179) 0.2%,
+    rgb(49, 21, 133) 99.9%
+  );
+  --orange: orange;
+  --background: white;
+  --background-color: white;
+  --text-color-black: black;
+  --shadow: 0.5px 2px 10px 2px rgb(211, 200, 200);
+}
+.dark-theme {
+  --orans: linear-gradient(
+    90.1deg,
+    rgb(0, 90, 102) 0.2%,
+    rgb(39, 20, 97) 99.9%
+  );
+  --blues: white;
+  --blue: rgb(13, 5, 51);
+  --orange: white;
+  --background: rgb(0, 0, 0);
+  --background-color: rgb(0, 0, 0);
+  --text-color-black: white;
+  --shadow: 1px 0px 3px 2px white;
+}
+.nav-bar-links {
+  margin-left: 70px;
+}
+.contact {
+  display: none;
+}
+.contact-tx {
+  position: relative;
+  top: 80px;
+  font-size: 40px;
+  color: var(--blues);
+  display: flex;
+  width: 100%;
+  background-image: var(--orans);
+}
+
+.contact-tx h1 {
+  width: 97.5%;
+  height: 180px;
+  padding: 20px 0 0 50px;
+  background-color: transparent;
+}
+.contact-tx .ver {
+  width: 120px;
+  margin: 10px 0 0 10px;
+}
+.contact-tx .hor {
+  height: 50px;
+  margin: 125px 30px 0 -10px;
+}
+.fa-brandss {
+  font-size: 17px;
+  margin: 160px 0 0 0;
+  width: 2.5%;
+  color: var(--blues);
+  background-color: transparent;
+}
+.fa-brandss:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: aqua;
+}
+
+form {
+  background-image: var(--orans);
+  position: relative;
+  top: 120px;
+  width: 93%;
+  margin: 30px 0 0 50px;
+  color: white;
+}
+form h1 {
+  text-align: center;
+  margin: 60px 0 60px 0;
+  font-size: 50px;
+  color: var(--text-color-black);
+}
+.row {
+  display: flex;
+  margin: 30px 0 20px 20px;
+  background-color: transparent;
+}
+.row .gr {
+  background-color: transparent;
+  width: 400px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.row .gr input {
+  background-color: transparent;
+  margin-top: 10px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  background-color: white;
+  padding-left: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+form label {
+  background-color: transparent;
+  font-size: 18px;
+}
+.textarea {
+  background-color: transparent;
+  margin-left: 167px;
+  display: flex;
+  flex-direction: column;
+}
+#text {
+  background-color: white;
+  margin-left: -20px;
+  padding: 5px 0 0 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.textarea #text {
+  margin-top: 10px;
+  border: none;
+
+  height: 130px;
+  width: 84%;
+}
+form span {
+  color: red;
+  background-color: transparent;
+}
+h5 {
+  margin-top: -20px;
+}
+form .buttond {
+  margin: 30px 0 0 540px;
+  font-size: 20px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  color: var(--text-color-black);
+}
+form .buttond:hover {
+  background-color: aqua;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.footer {
+  position: relative;
+  top: 180px;
+}
+
+@media only screen and (min-width: 0) and (max-width: 400px) {
+  .top-logo-home .nav-bar-links ul {
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  .contact {
+    display: none;
+  }
+  .contact-tx {
+    font-size: 14px;
+    height: 100px;
+    width: 99%;
+  }
+
+  .contact-tx h1 {
+    height: 180px;
+    padding: 20px 0 0 10px;
+    background-color: transparent;
+  }
+  .contact-tx .hor {
+    height: 20px;
+    margin: 75px 2px 0 -140px;
+  }
+  .fa-brandss {
+    font-size: 17px;
+    margin: 80px 0 0 15px;
+  }
+
+  form {
+    top: 60px;
+    width: 94.5%;
+    height: 900px;
+    margin: 0 0 0 5px;
+  }
+  form h1 {
+    font-size: 25px;
+    height: 60px;
+  }
+  .row {
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .row .gr {
+    width: 90%;
+    margin-left: 50px;
+  }
+  .row .gr input {
+    margin-top: 5px;
+  }
+  form label {
+    margin-top: 10px;
+  }
+  .textarea {
+    margin-left: 50px;
+  }
+  .textarea #text {
+    height: 160px;
+    width: 93%;
+  }
+  form .buttond {
+    margin: 40px 0 0 120px;
+    width: 30%;
+  }
+  form .buttond:hover {
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .footer {
+    position: relative;
+    top: 180px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  .top-logo-home .nav-bar-links ul {
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  .contact {
+    display: none;
+  }
+  .contact-tx {
+    font-size: 14px;
+    height: 100px;
+    width: 99%;
+  }
+
+  .contact-tx h1 {
+    height: 180px;
+    padding: 20px 0 0 10px;
+    background-color: transparent;
+  }
+  .contact-tx .hor {
+    height: 20px;
+    margin: 75px 2px 0 -140px;
+  }
+  .fa-brandss {
+    font-size: 17px;
+    margin: 80px 0 0 15px;
+  }
+
+  form {
+    top: 60px;
+    width: 94.5%;
+    height: 900px;
+    margin: 0 0 0 7px;
+  }
+  form h1 {
+    font-size: 25px;
+    height: 60px;
+  }
+  .row {
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .row .gr {
+    width: 90%;
+    margin-left: 50px;
+  }
+  .row .gr input {
+    margin-top: 5px;
+  }
+  form label {
+    margin-top: 10px;
+  }
+  .textarea {
+    margin-left: 50px;
+  }
+  .textarea #text {
+    height: 160px;
+    width: 93%;
+  }
+  form .buttond {
+    margin: 40px 0 0 120px;
+    width: 30%;
+  }
+  form .buttond:hover {
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .footer {
+    position: relative;
+    top: 180px;
+  }
+}
+@media only screen and (min-width: 602px) and (max-width: 770px) {
+  .top-logo-home .nav-bar-links ul {
+    margin: 48px 0 0 -90px;
+    font-weight: bold;
+  }
+  .contact {
+    display: none;
+  }
+  .contact-tx {
+    position: relative;
+    top: 90px;
+    font-size: 14px;
+    height: 140px;
+    width: 100%;
+  }
+
+  .contact-tx h1 {
+    height: 180px;
+    padding: 10px 0 0 10px;
+    font-size: 50px;
+    background-color: transparent;
+  }
+  .contact-tx .hor {
+    height: 30px;
+    margin: 103px 2px 0 -135px;
+  }
+  .fa-brandss {
+    font-size: 17px;
+    margin: 120px 0 0 10px;
+  }
+
+  form {
+    top: 60px;
+    width: 98%;
+    height: 900px;
+    margin: 0 0 0 5px;
+  }
+  form h1 {
+    font-size: 34px;
+    height: 60px;
+  }
+  .row {
+    margin: 30px 0 0 0;
+    display: flex;
+  }
+  .row .gr {
+    width: 90%;
+    margin-left: 50px;
+  }
+  .row .gr input {
+    margin-top: 5px;
+    width: 90%;
+    height: 40px;
+  }
+  form label {
+    margin-top: 16px;
+    font-size: 24px;
+  }
+  .textarea {
+    margin: 16px 0 0 50px;
+  }
+  .textarea #text {
+    margin: 20px 0 0 -20px;
+    height: 190px;
+    width: 95%;
+  }
+  form .buttond {
+    margin: 60px 0 0 280px;
+    width: 25%;
+    height: 50px;
+  }
+  form .buttond:hover {
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .footer {
+    position: relative;
+    top: 150px;
+  }
+}
+@media only screen and (min-width: 775px) and (max-width: 813px) {
+  .top-logo-home .nav-bar-links ul {
+    margin: 38px 0 0 -90px;
+    font-weight: bold;
+  }
+  .contact {
+    display: none;
+  }
+  .contact-tx {
+    position: relative;
+    top: 90px;
+    font-size: 14px;
+    height: 140px;
+    width: 100%;
+  }
+
+  .contact-tx h1 {
+    height: 180px;
+    padding: 10px 0 0 10px;
+    font-size: 50px;
+    background-color: transparent;
+  }
+  .contact-tx .hor {
+    height: 30px;
+    margin: 103px 2px 0 -135px;
+  }
+  .fa-brandss {
+    font-size: 17px;
+    margin: 120px 0 0 10px;
+  }
+
+  form {
+    top: 60px;
+    width: 98.5%;
+    height: 900px;
+    margin: 0 0 0 5px;
+  }
+  form h1 {
+    font-size: 34px;
+    height: 60px;
+  }
+  .row {
+    margin: 30px 0 0 0;
+    display: flex;
+  }
+  .row .gr {
+    width: 90%;
+    margin-left: 50px;
+  }
+  .row .gr input {
+    margin-top: 5px;
+    width: 90%;
+    height: 40px;
+  }
+  form label {
+    margin-top: 16px;
+    font-size: 24px;
+  }
+  .textarea {
+    margin: 16px 0 0 50px;
+  }
+  .textarea #text {
+    margin: 20px 0 0 -20px;
+    height: 190px;
+    width: 95%;
+  }
+  form .buttond {
+    margin: 60px 0 0 280px;
+    width: 25%;
+    height: 50px;
+  }
+  form .buttond:hover {
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .footer {
+    position: relative;
+    top: 150px;
+  }
+}
+@media only screen and (min-width: 815px) and (max-width: 1017px) {
+  .top-logo-home .nav-bar-links ul {
+    margin: 48px 0 0 -90px;
+    font-weight: bold;
+  }
+  .contact {
+    display: none;
+  }
+  .contact-tx {
+    position: relative;
+    top: 90px;
+    font-size: 14px;
+    height: 140px;
+    width: 100%;
+  }
+
+  .contact-tx h1 {
+    height: 180px;
+    padding: 10px 0 0 10px;
+    font-size: 50px;
+    background-color: transparent;
+  }
+  .contact-tx .hor {
+    height: 30px;
+    margin: 103px 2px 0 -135px;
+  }
+  .fa-brandss {
+    font-size: 17px;
+    margin: 120px 0 0 10px;
+  }
+
+  form {
+    top: 60px;
+    width: 98%;
+    height: 900px;
+    margin: 0 0 0 5px;
+  }
+  form h1 {
+    font-size: 34px;
+    height: 60px;
+  }
+  .row {
+    margin: 30px 0 0 0;
+    display: flex;
+  }
+  .row .gr {
+    width: 90%;
+    margin-left: 50px;
+  }
+  .row .gr input {
+    margin-top: 5px;
+    width: 90%;
+    height: 40px;
+  }
+  form label {
+    margin-top: 16px;
+    font-size: 24px;
+  }
+  .textarea {
+    margin: 16px 0 0 50px;
+  }
+  .textarea #text {
+    margin: 20px 0 0 -20px;
+    height: 190px;
+    width: 95%;
+  }
+  form .buttond {
+    margin: 60px 0 0 280px;
+    width: 25%;
+    height: 50px;
+  }
+  form .buttond:hover {
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .footer {
+    position: relative;
+    top: 150px;
+  }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1300px) {
+  .top-logo-home .nav-bar-links ul {
+    margin: 48px 0 0 35px;
+    font-weight: bold;
+  }
+  .contact {
+    display: none;
+  }
+  .contact-tx {
+    position: relative;
+    top: 90px;
+    font-size: 14px;
+    height: 140px;
+    width: 100%;
+  }
+
+  .contact-tx h1 {
+    height: 180px;
+    padding: 10px 0 0 10px;
+    font-size: 50px;
+    background-color: transparent;
+  }
+  .contact-tx .hor {
+    height: 30px;
+    margin: 103px 2px 0 -135px;
+  }
+  .fa-brandss {
+    font-size: 17px;
+    margin: 120px 0 0 10px;
+  }
+
+  form {
+    top: 60px;
+    width: 99.5%;
+    height: 900px;
+    margin: 0 0 0 5px;
+  }
+  form h1 {
+    font-size: 34px;
+    height: 60px;
+  }
+  .row {
+    margin: 30px 0 0 0;
+    display: flex;
+  }
+  .row .gr {
+    width: 90%;
+    margin-left: 50px;
+  }
+  .row .gr input {
+    margin-top: 5px;
+    width: 90%;
+    height: 40px;
+  }
+  form label {
+    margin-top: 16px;
+    font-size: 24px;
+  }
+  .textarea {
+    margin: 16px 0 0 50px;
+  }
+  .textarea #text {
+    margin: 20px 0 0 -20px;
+    height: 190px;
+    width: 95%;
+  }
+  form .buttond {
+    margin: 60px 0 0 280px;
+    width: 25%;
+    height: 50px;
+  }
+  form .buttond:hover {
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .footer {
+    position: relative;
+    top: 150px;
+  }
+}
+@media only screen and (min-width: 1910px) and (max-width: 2000px) {
+  .top-logo-home .nav-bar-links ul {
+    margin: 48px 0 0 35px;
+    font-weight: bold;
+  }
+  .contact {
+    display: none;
+  }
+  .contact-tx {
+    position: relative;
+    top: 100px;
+    font-size: 14px;
+    height: 250px;
+    width: 100%;
+  }
+
+  .contact-tx h1 {
+    height: 180px;
+    padding: 80px 0 0 40px;
+    font-size: 70px;
+    background-color: transparent;
+  }
+  .contact-tx .hor {
+    height: 45px;
+    margin: 200px 2px 0 -175px;
+  }
+  .fa-brandss {
+    font-size: 24px;
+    margin: 215px 0 0 15px;
+  }
+
+  form {
+    top: 150px;
+    width: 99.5%;
+    height: 1200px;
+    margin: 0 0 0 5px;
+  }
+  form h1 {
+    font-size: 39px;
+    height: 60px;
+  }
+  .row {
+    margin: 30px 0 0 0;
+    display: flex;
+  }
+  .row .gr {
+    width: 90%;
+    margin-left: 120px;
+  }
+  .row .gr input {
+    margin-top: 28px;
+    width: 90%;
+    height: 60px;
+  }
+  form label {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .textarea {
+    margin: 36px 0 0 110px;
+  }
+  .textarea #text {
+    margin: 20px 0 0 -20px;
+    height: 190px;
+    width: 95%;
+  }
+  form .button {
+    margin: 120px 0 0 770px;
+    width: 25%;
+    height: 70px;
+  }
+  .footer {
+    position: relative;
+    top: 280px;
+  }
+}
